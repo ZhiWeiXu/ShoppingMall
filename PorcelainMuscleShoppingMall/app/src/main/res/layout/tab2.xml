@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+      android:orientation="vertical"
+     >
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:orientation="horizontal">
+           <TextView
+               android:gravity="center"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:text="购物车"
+               android:textSize="30sp"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:id="@+id/textView4" />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:text="编辑"
+               android:textSize="20sp"
+               android:gravity="bottom"
+               android:layout_marginRight="26dp"
+               android:layout_marginEnd="26dp"
+               android:layout_alignParentTop="true"
+               android:layout_toLeftOf="@+id/buy_xiaoxi"
+               android:layout_toStartOf="@+id/buy_xiaoxi"
+               android:id="@+id/buy_bianji" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:text="消息"
+               android:textSize="20sp"
+               android:gravity="bottom"
+               android:id="@+id/buy_xiaoxi"
+               android:layout_marginRight="5dip"
+               android:layout_alignParentTop="true"
+               android:layout_alignParentRight="true"
+               android:layout_alignParentEnd="true" />
+       </RelativeLayout>
+
+
+
+
+
+       <ListView
+           android:id="@+id/buy_list"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:dividerHeight="14dip"
+           android:layout_weight="8"/>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="合计:"
+            android:textSize="25sp"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dip"
+            android:layout_toLeftOf="@+id/buy_jiner"
+            android:layout_toStartOf="@+id/buy_jiner" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="￥ 0.0"
+            android:textSize="20sp"
+            android:textColor="#e91745"
+            android:id="@+id/buy_jiner"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dip"
+            android:layout_toLeftOf="@+id/buy_jiesuan"
+            android:layout_toStartOf="@+id/buy_jiesuan"
+            android:layout_alignParentBottom="true" />
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="   结算（ 0）"
+            android:textSize="20sp"
+
+            android:background="#e95d17"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/buy_jiesuan" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全选"
+            android:id="@+id/buy1＿radioButton"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="不含运费"
+            android:id="@+id/textView3"
+            android:layout_alignBottom="@+id/buy1＿radioButton"
+            android:layout_alignLeft="@+id/buy_jiner"
+            android:layout_alignStart="@+id/buy_jiner"/>
+    </RelativeLayout>
+   </LinearLayout>
+
+</android.support.percent.PercentRelativeLayout>

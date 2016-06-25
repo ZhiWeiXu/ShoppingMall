@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/menu5"
+        android:title="乳液"
+        android:icon="@drawable/emulsion"
+        />
+    <item android:id="@+id/menu6"
+        android:title="唇膏"
+        android:icon="@drawable/lipstick"
+        />
+
+    <item android:id="@+id/menu4"
+        android:title="面膜"
+        android:icon="@drawable/facialmask"/>
+</menu>

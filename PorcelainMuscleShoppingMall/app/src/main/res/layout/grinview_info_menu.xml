@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dip"
+    android:layout_marginBottom="10dip"
+
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+
+            android:id="@+id/gridview_inf0_image"
+            android:layout_width="match_parent"
+            android:layout_height="300dip"
+            android:gravity="center"
+            android:scaleType="fitXY"
+
+            android:src="@drawable/q1" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+
+    />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="#d9ffffff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/gridview_inf0_table"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.5"
+
+                    android:gravity="center_vertical"
+                    android:text="标题"
+                    android:background="#70ff6600"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:background="@drawable/biankuang"
+                    android:id="@+id/gridview_inf0_conten"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="内容内容内容内容内容内容内容内容内容内容内容内容"
+                    android:textColor="#3b3b3b"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:layout_marginTop="5dip"
+                        android:text="￥"
+                        android:gravity="top|right"
+                        android:textSize="8sp"
+                        android:textColor="#f44f1c" />
+                    <TextView
+                        android:id="@+id/gridview_inf0_money"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="top|left"
+                        android:text="0.0"
+                        android:textSize="12sp"
+                        android:textColor="#f44f1c"   />
+                    <TextView
+                        android:id="@+id/gridview_inf0_suliang"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="已有xxx人购买"
+                        android:textSize="9sp"
+                        android:textColor="#b6b6b6"   />
+                    <TextView
+                        android:id="@+id/gridview_inf0_city"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.55"
+                        android:gravity="bottom|right"
+                        android:text="广东清远"
+                        android:textSize="9sp"
+                        android:textColor="#b6b6b6"   />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

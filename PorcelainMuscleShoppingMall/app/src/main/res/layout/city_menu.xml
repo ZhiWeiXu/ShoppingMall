@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/city_menu">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:background="@drawable/biangkuang1"
+    android:orientation="horizontal">
+    <EditText
+        android:id="@+id/ED1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:hint="省份"
+        android:layout_height="match_parent" />
+    <EditText
+        android:id="@+id/ED2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:hint="城市"
+        android:layout_height="match_parent" />
+    <EditText
+        android:id="@+id/ED3"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:hint="区县"
+        android:layout_height="match_parent" />
+</LinearLayout>
+</LinearLayout>

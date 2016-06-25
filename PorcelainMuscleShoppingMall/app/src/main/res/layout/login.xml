@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/login_icon"
+    android:layout_height="match_parent">
+     <ImageView
+         app:layout_marginTopPercent="15%"
+         android:layout_centerHorizontal="true"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@drawable/logo"/>
+     <android.support.design.widget.TextInputLayout
+         app:layout_marginTopPercent="45%"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/textinput1">
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+     </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+
+        android:layout_marginTop="32dp"
+        android:id="@+id/textinput2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textinput1">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/textinput2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/login"
+            android:text="登录"
+            android:layout_width="0dp"
+            android:background="#aa530454"
+            android:layout_weight="1"
+            android:layout_marginRight="5dip"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/register"
+            android:text="注册"
+            android:background="#b3530454"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dip"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.percent.PercentRelativeLayout>
+

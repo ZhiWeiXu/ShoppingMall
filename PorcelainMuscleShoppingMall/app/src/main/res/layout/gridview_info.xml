@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFCC">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:orientation="horizontal"
+        android:background="@drawable/bei_1">
+        <ImageView
+            android:id="@+id/grid_image"
+            android:layout_gravity="left"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/emulsion"/>
+        <TextView
+            android:id="@+id/grid_table"
+            android:layout_gravity="left"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="xx"
+            android:textSize="20sp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="6"/>
+    </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/grid_list"
+            android:layout_width="match_parent"
+            android:layout_weight="8"
+            android:background="#00ffffff"
+            android:layout_height="0dp"
+            android:dividerHeight="30dip"
+            android:scrollbars="none"/>
+
+    </LinearLayout>
+
