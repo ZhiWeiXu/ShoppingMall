@@ -17,9 +17,12 @@
      
 ###界面展示
 
-![baidu](http://7xvp2a.com1.z0.glb.clouddn.com/Screenshot_2016-06-25-20-47-25_com.view.activity.png "主页")    
- ![baidu](http://7xvp2a.com1.z0.glb.clouddn.com/Screenshot_2016-06-25-20-47-25_com.view.activity.png "主页")    
- ![baidu](http://7xvp2a.com1.z0.glb.clouddn.com/Screenshot_2016-06-25-20-47-25_com.view.activity.png "主页")    
- ![baidu](http://7xvp2a.com1.z0.glb.clouddn.com/Screenshot_2016-06-25-20-47-25_com.view.activity.png "主页")    
- ![baidu](http://7xvp2a.com1.z0.glb.clouddn.com/Screenshot_2016-06-25-20-47-25_com.view.activity.png "主页")    
- ![baidu](http://7xvp2a.com1.z0.glb.clouddn.com/Screenshot_2016-06-25-20-47-25_com.view.activity.png "主页")  
+ ![baidu](http://7xvp2a.com1.z0.glb.clouddn.com/pic1.gif "主页")    
+ ![baidu](http://7xvp2a.com1.z0.glb.clouddn.com/pic2.gif "侧滑")    
+ ![baidu](http://7xvp2a.com1.z0.glb.clouddn.com/pic3.gif "商品详情")    
+ ![baidu](http://7xvp2a.com1.z0.glb.clouddn.com/pic5.gif "购物车")    
+ ![baidu](http://7xvp2a.com1.z0.glb.clouddn.com/pic7.gif "个人中心")    
+ ![baidu](http://7xvp2a.com1.z0.glb.clouddn.com/pic12.gif "订单详情")   
+ ![baidu](http://7xvp2a.com1.z0.glb.clouddn.com/pic9.gif "搜索")   
+  ![baidu](http://7xvp2a.com1.z0.glb.clouddn.com/pic11.gif "登录")
+   ![baidu](http://7xvp2a.com1.z0.glb.clouddn.com/pic10.gif "注册")  
